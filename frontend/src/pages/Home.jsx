@@ -139,8 +139,8 @@ export default function Home() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} className="bg-white rounded-2xl shadow-2xl border border-red-100 overflow-hidden grid md:grid-cols-5">
             <div className="md:col-span-2 bg-red-950 p-8 text-white flex flex-col justify-center">
               <div className="w-10 h-10 bg-white/10 rounded flex items-center justify-center mb-4"><Calculator className="w-5 h-5 text-stone-200" /></div>
-              <h3 className="text-2xl font-serif font-bold mb-2 leading-tight">Course Matcher</h3>
-              <p className="text-xs text-red-200 font-light uppercase tracking-widest">Find your stream based on marks</p>
+              <h3 className="text-2xl font-serif font-bold mb-2 leading-tight">AI Course Recommender (exclusive feature)</h3>
+              <p className="text-xs text-red-200 font-light uppercase tracking-widest">Discover your ideal career path based on your strengths</p>
             </div>
             <div className="md:col-span-3 p-8 bg-white">
               <div className="grid grid-cols-2 gap-4 mb-4">
